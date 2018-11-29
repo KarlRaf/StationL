@@ -1,0 +1,69 @@
+body,
+.font-family-primary {
+  font-family: 'Ubuntu', sans-serif;
+  line-height: 1.5;
+  letter-spacing: 0.85px;
+}
+a,
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.font-family-secondary {
+  font-family: 'Lato', sans-serif;
+}
+
+/* Logo */
+.logo img {
+  width: 100%;
+}
+.logo img.logo-img {
+  max-width: 180px;
+}
+.logo img.logo-icon {
+  max-width: 40px;
+}
+
+/* Hero */
+.hero {
+  max-height: 600px;
+  overflow: hidden;
+}
+.hero-absolute-img {
+  position: absolute;
+  top: auto;
+  bottom: -30px;
+  left: 50%;
+  width: 660px;
+}
+
+/* Pricing */
+.pricing-wrap.active {
+  background-image: linear-gradient(-225deg, #fcbf23 0%, #f6e12f 48%, #fcbf23 100%);
+}
+.price__amount {
+  font-size: 400%;
+  line-height: 1.25;
+}
+.price__currency {
+    line-height: .8;
+}
+
+/* Features */
+.features-icon {
+  width: 32px;
+}
+
+/* Footer */
+.footer-logo {
+  max-width: 180px;
+}
+.footer-logo-icon {
+  max-width: 32px;
+}
