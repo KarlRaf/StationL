@@ -74,9 +74,6 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:500,700" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
 
-
-
-
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
 
@@ -116,9 +113,12 @@
                             <div class="row align-items">
                                 <div class="col-12">
                                     <div class="text-center text-lg-left text-blue">
-                                        <h1 class="xxxl-font-size font-weight__700">
-                                          La seule newsletter par des étudiants ENTREPRENEURS pour des étudiants ENTREPRENANTS
-                                        </h1>
+                                      <div id="typed-strings">
+                                          <h1>La seule newsletter par des étudiants <strong>entrepreneurs</strong></h1>
+                                          <h1>Pour des étudiants <strong>entreprenants</strong>.</h1>
+                                      </div>
+                                        <span id="typed2" class="xxxl-font-size font-weight__700"></span>
+
                                     </div>
                                     <!-- Empty Space -->
                                     <div class="md-space"></div>
@@ -574,6 +574,19 @@
     <script src="assets/js/main.js"></script>
 
     <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+
+    <script>
+      var typed2 = new Typed('#typed2', {
+          stringsElement: '#typed-strings',
+          typeSpeed: 143,
+          smartBackspace: true,
+          backSpeed: 50,
+          fadeOut: false,
+          loop: true
+          });
+    </script>
+
     <script>
       var button = document.getElementById("mc-embedded-subscribe");
       button.addEventListener("click", function() {swal("Bien ouej!", "Ton inscription est prise en compte, check tes mails!", "success")});
