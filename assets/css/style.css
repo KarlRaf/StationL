@@ -32,15 +32,15 @@ h6,
 
 /* Hero */
 .hero {
-  max-height: 600px;
+  max-height: 700px;
   overflow: hidden;
 }
 .hero-absolute-img {
   position: absolute;
   top: auto;
-  bottom: -30px;
+  bottom: 0px;
   left: 50%;
-  width: 660px;
+  width: 550px;
 }
 
 /* Pricing */
@@ -58,6 +58,12 @@ h6,
 /* Features */
 .features-icon {
   width: 32px;
+}
+
+.highlighted-yellow {
+    color: #FFBE00;
+    background: #FFF9EA;
+    font-weight: 1000;
 }
 
 /* Footer */
