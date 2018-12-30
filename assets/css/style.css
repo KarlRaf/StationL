@@ -43,6 +43,14 @@ h6,
   width: 550px;
 }
 
+@media screen and (max-width: 1000px) {
+  .hero {
+    max-height: 100vh;
+    overflow: hidden;
+  }
+
+}
+
 /* Pricing */
 .pricing-wrap.active {
   background-image: linear-gradient(-225deg, #fcbf23 0%, #f6e12f 48%, #fcbf23 100%);
