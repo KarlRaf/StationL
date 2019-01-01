@@ -41,7 +41,7 @@ h3,
 }
 h4,
 .base-plus-font-size {
-	font-size: 112.5%;
+	font-size: 120.5%;
 }
 .base-font-size {
 	font-size: 100%;
@@ -85,13 +85,13 @@ h6,
 		font-size: 700%;
 	}
 	.xxxl-font-size {
-		font-size: 255%;
+		font-size: 500%;
 	}
 	.xxl-font-size {
-		font-size: 225%;
+		font-size: 400%;
 	}
 	.xl-font-size {
-		font-size: 180%;
+		font-size: 350%;
 	}
 	.lg-font-size {
 		font-size: 160%;
@@ -108,10 +108,10 @@ h6,
 		font-size: 700%;
 	}
 	.xxxl-font-size {
-		font-size: 225%;
+		font-size: 500%;
 	}
 	.xxl-font-size {
-		font-size: 200%;
+		font-size: 350%;
 	}
 	.xl-font-size {
 		font-size: 180%;
@@ -133,7 +133,7 @@ h6,
 		font-size: 200%;
 	}
 	.xxl-font-size {
-		font-size: 180%;
+		font-size: 350%;
 	}
 	.xl-font-size {
 		font-size: 160%;
